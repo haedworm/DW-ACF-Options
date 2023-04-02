@@ -1,1 +1,20 @@
-/* Main Stylesheet */
+/* Custom Properties 
+*/
+
+:root {
+	--bg: #a1086a;
+}
+
+/* Page 
+*/
+
+body.settings_page_dw-acf-options {
+	background: var(--bg, #a1086a);
+}
+
+/* Content 
+*/
+
+h1 {
+	color: var(--text, #fff);
+}
