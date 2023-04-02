@@ -8,6 +8,12 @@ Author: dazzie
 Author URI: https://dwoodley.co.uk/
 */
 
+// Enqueue Stylesheet for ACF Options Page
+function dw_acf_options_styles() {
+    wp_enqueue_style( 'dw-acf-options-styles', plugins_url( 'styles/main.css', __FILE__ ) );
+}
+add_action( 'admin_enqueue_scripts', 'dw_acf_options_styles' );
+
 // Add ACF Options Page as a sub-menu of Settings
 if( function_exists('acf_add_options_page') ) {
     acf_add_options_page(array(
