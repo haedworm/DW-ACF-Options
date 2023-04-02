@@ -3,14 +3,14 @@
 Plugin Name: DW ACF Options
 Plugin URI: https://dwoodley.co.uk/
 Description: Plugin to an add ACF Options Page
-Version: 1.0
+Version: 1.0.01
 Author: dazzie
 Author URI: https://dwoodley.co.uk/
 */
 
 // Enqueue Stylesheet for ACF Options Page
 function dw_acf_options_styles() {
-    wp_enqueue_style( 'dw-acf-options-styles', plugins_url( 'styles/main.css', __FILE__ ) );
+    wp_enqueue_style( 'dw-acf-options-styles', plugins_url( 'style/main.css', __FILE__ ) );
 }
 add_action( 'admin_enqueue_scripts', 'dw_acf_options_styles' );
 
