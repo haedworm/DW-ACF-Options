@@ -24,5 +24,6 @@ if( function_exists('acf_add_options_page') ) {
         'position' => 30,
         'icon_url' => 'dashicons-admin-generic',
         'parent_slug' => 'options-general.php',
+        'content' => '<div class="hero"><h1>Custom Header</h1></div>',
     ));
 }
