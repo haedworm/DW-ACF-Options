@@ -182,3 +182,20 @@ body.settings_page_dw-acf-options {
 .settings_page_dw-acf-options ul.acf-checkbox-list:focus-within {
     border-color: transparent;
 }
+
+.acf-field.acf-field-group[data-name="fields_required"] .acf-fields {
+	display: flex;
+	flex-wrap: wrap;
+	border: none;
+	background: ;
+	border-radius: 10px
+}
+.acf-field.acf-field-group[data-name="fields_required"] .acf-fields .acf-field {
+	flex-basis: 180px;
+	flex-shrink: 0;
+	flex-grow: 0;
+	border: none;
+}
+.acf-field.acf-field-group[data-name="fields_required"] .acf-fields .acf-field.acf-field-group {
+    min-width: 100%;
+}
