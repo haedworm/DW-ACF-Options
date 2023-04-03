@@ -129,6 +129,9 @@ body.settings_page_dw-acf-options {
     padding: 10px 20px;
     border-radius: 25px;
 }
+.settings_page_dw-acf-options .acf-field textarea {
+	padding-block: 20px;
+}
 
 .settings_page_dw-acf-options .acf-field input[type=checkbox]:focus, 
 .settings_page_dw-acf-options .acf-field input[type=color]:focus, 
@@ -151,4 +154,26 @@ body.settings_page_dw-acf-options {
     border-color: #2271b1 !important;
     box-shadow: unset;
     outline: unset;
+}
+
+.settings_page_dw-acf-options .acf-field input[type=checkbox]:focus-visible, 
+.settings_page_dw-acf-options .acf-field input[type=color]:focus-visible, 
+.settings_page_dw-acf-options .acf-field input[type=date]:focus-visible, 
+.settings_page_dw-acf-options .acf-field input[type=datetime-local]:focus-visible, 
+.settings_page_dw-acf-options .acf-field input[type=datetime]:focus-visible, 
+.settings_page_dw-acf-options .acf-field input[type=email]:focus-visible, 
+.settings_page_dw-acf-options .acf-field input[type=month]:focus-visible, 
+.settings_page_dw-acf-options .acf-field input[type=number]:focus-visible, 
+.settings_page_dw-acf-options .acf-field input[type=password]:focus-visible, 
+.settings_page_dw-acf-options .acf-field input[type=radio]:focus-visible, 
+.settings_page_dw-acf-options .acf-field input[type=search]:focus-visible, 
+.settings_page_dw-acf-options .acf-field input[type=tel]:focus-visible, 
+.settings_page_dw-acf-options .acf-field input[type=text]:focus-visible, 
+.settings_page_dw-acf-options .acf-field input[type=time]:focus-visible, 
+.settings_page_dw-acf-options .acf-field input[type=url]:focus-visible, 
+.settings_page_dw-acf-options .acf-field input[type=week]:focus-visible, 
+.settings_page_dw-acf-options .acf-field select:focus-visible, 
+.settings_page_dw-acf-options .acf-field textarea:focus-visible {
+    box-shadow: inset 0 0 0px 1px #2271b1;
+	outline: unset;
 }
