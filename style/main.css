@@ -2,21 +2,23 @@
 */
 
 :root {
-	--bg: #a1086a;
+	--bg: #ffffff;
 }
 
 /* Page 
 */
 
 body.settings_page_dw-acf-options {
-	background: var(--bg, #a1086a);
+	background: var(--bg, #fff);
 }
 
 /* Content 
 */
 
-h1 {
-	color: var(--text, #fff);
+.settings_page_dw-acf-options h1 {
+	font-size: 1.7em;
+	font-weight: 500;
+	color: #565656;
 }
 
 /* Checkbox */
@@ -24,38 +26,46 @@ ul.acf-checkbox-list {
   display: grid;
 }
 .acf-checkbox-list li {
-  margin: 10px;
-  color: #fff;
-  font-size: 1.4em;
+  margin: 5px !important;
+  font-size: 15px !important;
   font-weight: 600;
+}
+
+.acf-checkbox-list li label.selected {
+  color: #565656;
+  transition: all 0.3s ease;
+}
+
+.acf-checkbox-list li label {
+  color: rgb(86 86 86 / 50%);
+  transition: all 0.3s ease;
 }
 
 .acf-checkbox-list li input[type="checkbox"] {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  width: 25px;
-  height: 25px;
-  background-color: #a1086a;
+  width: 19px;
+  height: 19px;
   border-radius: 50px;
-  border: 2px solid #fff;
   cursor: pointer;
   outline: none;
   position: relative;
-  margin-right: 10px;
 }
 
 .acf-checkbox-list li input[type="checkbox"]:checked::before {
   content: "\2714";
-  font-size: 16px;
-  color: #fff;
+  font-size: 11px;
+  color: #2271b1;
   position: absolute;
-  bottom: 0;
-  right: 0;
-  display: grid;
-  place-content: center;
+  top: 12px;
+  left: 2px;
 }
 
 .acf-checkbox-list li input[type="checkbox"]:focus {
   box-shadow: 0 0 8px 1px rgba(0,0,0,0.4);
+}
+
+.postbox-header {
+	display: none !important;
 }
