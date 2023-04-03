@@ -198,4 +198,10 @@ body.settings_page_dw-acf-options {
 }
 .acf-field.acf-field-group[data-name="fields_required"] .acf-fields .acf-field.acf-field-group {
     min-width: 100%;
+	padding: 0;
+}
+
+.acf-field.acf-field-group[data-name="fields_required"] .acf-fields .acf-field.acf-field-group > .acf-label {
+    padding: 16px 0 0 16px;
+    border-top: 1px solid #eee;
 }
