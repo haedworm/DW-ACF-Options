@@ -177,3 +177,8 @@ body.settings_page_dw-acf-options {
     box-shadow: inset 0 0 0px 1px #2271b1;
 	outline: unset;
 }
+
+.settings_page_dw-acf-options ul.acf-radio-list:focus-within, 
+.settings_page_dw-acf-options ul.acf-checkbox-list:focus-within {
+    border-color: transparent;
+}
