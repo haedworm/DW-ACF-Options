@@ -22,79 +22,133 @@ body.settings_page_dw-acf-options {
 }
 
 /* Checkbox */
-ul.acf-checkbox-list {
-  display: grid;
+.settings_page_dw-acf-options ul.acf-checkbox-list {
+	display: grid;
 }
-.acf-checkbox-list li {
-  margin: 5px !important;
-  font-size: 15px !important;
-  font-weight: 600;
-}
-
-.acf-checkbox-list li label.selected {
-  color: #565656;
-  transition: all 0.3s ease;
+.settings_page_dw-acf-options .acf-checkbox-list li {
+	margin: 5px !important;
+	font-size: 15px !important;
+	font-weight: 600;
 }
 
-.acf-checkbox-list li label {
-  color: rgb(86 86 86 / 50%);
-  transition: all 0.3s ease;
+.settings_page_dw-acf-options .acf-checkbox-list li label.selected {
+	color: #565656;
+	transition: all 0.3s ease;
 }
 
-.acf-checkbox-list li input[type="checkbox"] {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  width: 19px;
-  height: 19px;
-  border-radius: 50px;
-  cursor: pointer;
-  outline: none;
-  position: relative;
+.settings_page_dw-acf-options .acf-checkbox-list li label {
+	color: rgb(86 86 86 / 50%);
+	transition: all 0.3s ease;
 }
 
-.acf-checkbox-list li input[type="checkbox"]:checked::before {
-  content: "\2714";
-  font-size: 11px;
-  color: #2271b1;
-  position: absolute;
-  top: 12px;
-  left: 2px;
+.settings_page_dw-acf-options .acf-checkbox-list li input[type="checkbox"] {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	width: 19px;
+	height: 19px;
+	border-radius: 50px;
+	cursor: pointer;
+	outline: none;
+	position: relative;
 }
 
-ul.acf-checkbox-list.acf-bl {
-  width: max-content;
-  padding-right: 15px;
+.settings_page_dw-acf-options .acf-checkbox-list li input[type="checkbox"]:checked::before {
+	content: "\2714";
+	font-size: 11px;
+	color: #2271b1;
+	position: absolute;
+	top: 12px;
+	left: 2px;
 }
 
-.acf-postbox .postbox-header {
-  display: none !important;
+.settings_page_dw-acf-options ul.acf-checkbox-list.acf-bl {
+	width: max-content;
+	padding-right: 15px;
 }
 
-.acf-hidden {
-    display: block;
-    height: 0;
-    overflow: hidden;
-    padding: 0 !important;
-    border: 0 !important;
-    opacity: 0;
-}
-
-.acf-fields > .acf-field {
+.settings_page_dw-acf-options .acf-postbox {
     position: relative;
-    margin: 0;
-    padding: 16px;
-    border-top-width: 1px;
-    border-top-style: solid;
-    border-top-color: #EAECF0;
-    transition: all 0s linear 0s, opacity 0.6s linear;
+    border: none !important;
+    box-shadow: unset !important;
+    background: #fafafa;
+    border-radius: 10px;
 }
 
-.acf-hidden {
-    display: block;
-    height: 0;
-    overflow: hidden;
-    padding: 0 !important;
-    border: 0 !important;
-    opacity: 0;
+.settings_page_dw-acf-options .acf-postbox .postbox-header {
+	display: none !important;
+}
+
+.settings_page_dw-acf-options .acf-hidden {
+	display: block;
+	height: 0;
+	overflow: hidden;
+	padding: 0 !important;
+	border: 0 !important;
+	opacity: 0;
+}
+
+.settings_page_dw-acf-options .acf-fields > .acf-field {
+	position: relative;
+	margin: 0;
+	padding: 16px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #EAECF0;
+	transition: all 0s linear 0s, opacity 0.6s linear;
+}
+
+.settings_page_dw-acf-options .acf-hidden {
+	display: block !important;
+	visibility: hidden;
+	height: 0;
+	overflow: hidden;
+	padding: 0 !important;
+	border: 0 !important;
+	opacity: 0;
+}
+
+.settings_page_dw-acf-options .acf-field input[type=text], 
+.settings_page_dw-acf-options .acf-field input[type=password], 
+.settings_page_dw-acf-options .acf-field input[type=date], 
+.settings_page_dw-acf-options .acf-field input[type=datetime], 
+.settings_page_dw-acf-options .acf-field input[type=datetime-local], 
+.settings_page_dw-acf-options .acf-field input[type=email], 
+.settings_page_dw-acf-options .acf-field input[type=month], 
+.settings_page_dw-acf-options .acf-field input[type=number], 
+.settings_page_dw-acf-options .acf-field input[type=search], 
+.settings_page_dw-acf-options .acf-field input[type=tel], 
+.settings_page_dw-acf-options .acf-field input[type=time], 
+.settings_page_dw-acf-options .acf-field input[type=url], 
+.settings_page_dw-acf-options .acf-field input[type=week], 
+.settings_page_dw-acf-options .acf-field textarea, 
+.settings_page_dw-acf-options .acf-field select {
+    max-width: 300px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+.settings_page_dw-acf-options .acf-field input[type=checkbox]:focus, 
+.settings_page_dw-acf-options .acf-field input[type=color]:focus, 
+.settings_page_dw-acf-options .acf-field input[type=date]:focus, 
+.settings_page_dw-acf-options .acf-field input[type=datetime-local]:focus, 
+.settings_page_dw-acf-options .acf-field input[type=datetime]:focus, 
+.settings_page_dw-acf-options .acf-field input[type=email]:focus, 
+.settings_page_dw-acf-options .acf-field input[type=month]:focus, 
+.settings_page_dw-acf-options .acf-field input[type=number]:focus, 
+.settings_page_dw-acf-options .acf-field input[type=password]:focus, 
+.settings_page_dw-acf-options .acf-field input[type=radio]:focus, 
+.settings_page_dw-acf-options .acf-field input[type=search]:focus, 
+.settings_page_dw-acf-options .acf-field input[type=tel]:focus, 
+.settings_page_dw-acf-options .acf-field input[type=text]:focus, 
+.settings_page_dw-acf-options .acf-field input[type=time]:focus, 
+.settings_page_dw-acf-options .acf-field input[type=url]:focus, 
+.settings_page_dw-acf-options .acf-field input[type=week]:focus, 
+.settings_page_dw-acf-options .acf-field select:focus, 
+.settings_page_dw-acf-options .acf-field textarea:focus {
+    border-color: #2271b1 !important;
+    box-shadow: unset;
+    outline: unset;
 }
