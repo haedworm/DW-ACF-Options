@@ -62,9 +62,6 @@ ul.acf-checkbox-list {
   left: 2px;
 }
 
-.acf-checkbox-list li input[type="checkbox"]:focus {
-  box-shadow: 0 0 8px 1px rgba(0,0,0,0.4);
-}
 ul.acf-checkbox-list.acf-bl {
   width: max-content;
   padding-right: 15px;
