@@ -18,3 +18,44 @@ body.settings_page_dw-acf-options {
 h1 {
 	color: var(--text, #fff);
 }
+
+/* Checkbox */
+ul.acf-checkbox-list {
+  display: grid;
+}
+.acf-checkbox-list li {
+  margin: 10px;
+  color: #fff;
+  font-size: 1.4em;
+  font-weight: 600;
+}
+
+.acf-checkbox-list li input[type="checkbox"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background-color: #a1086a;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  margin-right: 10px;
+}
+
+.acf-checkbox-list li input[type="checkbox"]:checked::before {
+  content: "\2714";
+  font-size: 16px;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: grid;
+  place-content: center;
+}
+
+.acf-checkbox-list li input[type="checkbox"]:focus {
+  box-shadow: 0 0 8px 1px rgba(0,0,0,0.4);
+}
