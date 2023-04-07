@@ -209,3 +209,11 @@ body.settings_page_dw-acf-options {
 .acf-switch, .acf-switch .acf-switch-slider {
     border-color: #ddd;
 }
+
+.settings_page_dw-acf-options .acf-url i {
+    display: flex;
+    height: 100% !important;
+    justify-content: center;
+    align-items: center;
+    top: unset;
+}
