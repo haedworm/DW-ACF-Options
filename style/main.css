@@ -183,30 +183,30 @@ body.settings_page_dw-acf-options {
     border-color: transparent;
 }
 
-.acf-field.acf-field-group[data-name="fields_required"] .acf-fields {
+.settings_page_dw-acf-options .acf-field.acf-field-group[data-name="fields_required"] .acf-fields {
 	display: flex;
 	flex-wrap: wrap;
 	border: none;
 	background: ;
 	border-radius: 10px
 }
-.acf-field.acf-field-group[data-name="fields_required"] .acf-fields .acf-field {
+.settings_page_dw-acf-options .acf-field.acf-field-group[data-name="fields_required"] .acf-fields .acf-field {
 	flex-basis: 180px;
 	flex-shrink: 0;
 	flex-grow: 0;
 	border: none;
 }
-.acf-field.acf-field-group[data-name="fields_required"] .acf-fields .acf-field.acf-field-group {
+.settings_page_dw-acf-options .acf-field.acf-field-group[data-name="fields_required"] .acf-fields .acf-field.acf-field-group {
     min-width: 100%;
 	padding: 0;
 }
 
-.acf-field.acf-field-group[data-name="fields_required"] .acf-fields .acf-field.acf-field-group > .acf-label {
+.settings_page_dw-acf-options .acf-field.acf-field-group[data-name="fields_required"] .acf-fields .acf-field.acf-field-group > .acf-label {
     padding: 16px 0 0 16px;
     border-top: 1px solid #eee;
 }
 
-.acf-switch, .acf-switch .acf-switch-slider {
+.settings_page_dw-acf-options .acf-switch, .acf-switch .acf-switch-slider {
     border-color: #ddd;
 }
 
