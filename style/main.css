@@ -99,7 +99,6 @@ body.settings_page_dw-acf-options {
 }
 
 .settings_page_dw-acf-options .acf-hidden {
-	display: block !important;
 	visibility: hidden;
 	height: 0;
 	overflow: hidden;
