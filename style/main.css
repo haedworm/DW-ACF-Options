@@ -183,7 +183,10 @@ body.settings_page_dw-acf-options {
     border-color: transparent;
 }
 
-.settings_page_dw-acf-options .acf-field.acf-field-group[data-name="fields_required"] .acf-fields {
+/* Required Field Toggles & Social Network Grouped Fields */
+
+.settings_page_dw-acf-options .acf-field.acf-field-group[data-name="fields_required"] .acf-fields,
+.settings_page_dw-acf-options .acf-field.acf-field-group[data-name="social_networks"] .acf-fields {
 	display: flex;
 	flex-wrap: wrap;
 	border: none;
@@ -192,6 +195,12 @@ body.settings_page_dw-acf-options {
 }
 .settings_page_dw-acf-options .acf-field.acf-field-group[data-name="fields_required"] .acf-fields .acf-field {
 	flex-basis: 180px;
+	flex-shrink: 0;
+	flex-grow: 0;
+	border: none;
+}
+.settings_page_dw-acf-options .acf-field.acf-field-group[data-name="social_networks"] .acf-fields .acf-field {
+	flex-basis: 300px;
 	flex-shrink: 0;
 	flex-grow: 0;
 	border: none;
@@ -210,6 +219,7 @@ body.settings_page_dw-acf-options {
     border-color: #ddd;
 }
 
+/* Social Network Icon Position */
 .settings_page_dw-acf-options .acf-url i {
     display: flex;
     height: 100% !important;
@@ -217,3 +227,5 @@ body.settings_page_dw-acf-options {
     align-items: center;
     top: unset;
 }
+
+	
